@@ -1,0 +1,15 @@
+1.4.0 Changes:
+
+ - Rotterdam dungeon added.
+ - Antlanta dungeon added.
+ - Daily Dungeon added.
+ 
+ - Vault rework.
+ - New overworld enemies.
+ - New tiered items.
+ 
+ - High tier enemies can drop RAM and empty chests.
+ - Iron Golems and Iron Crates drop tiered loot too.
+ - Always spawn in the same place in the overworld.
+ - Emeralds Guardian drops a gateway to the emerald stronghold.
+ - Removed some dumb shit from the recipe book.
