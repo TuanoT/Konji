@@ -827,6 +827,18 @@
       </sprites>
     </sprites>
     <sprites name="Solid">
+      <sprites name="Walls">
+        <sprite>sprites\spr_wood_wall</sprite>
+        <sprite>sprites\spr_nexus_wall</sprite>
+        <sprite>sprites\spr_rotterdam_wall</sprite>
+        <sprite>sprites\spr_sand_stone_wall</sprite>
+        <sprite>sprites\spr_tech_wall</sprite>
+        <sprite>sprites\spr_temple_wall</sprite>
+        <sprite>sprites\spr_emerald_wall</sprite>
+        <sprite>sprites\spr_cracked_emerald_wall</sprite>
+        <sprite>sprites\spr_sapphire_wall</sprite>
+        <sprite>sprites\spr_sapphire_stone_wall</sprite>
+      </sprites>
       <sprite>sprites\spr_pine_tree</sprite>
       <sprite>sprites\spr_stump</sprite>
       <sprite>sprites\spr_bush</sprite>
@@ -840,17 +852,6 @@
       <sprite>sprites\spr_station_bollard</sprite>
       <sprite>sprites\spr_health_pillar</sprite>
       <sprite>sprites\spr_mana_pillar</sprite>
-      <sprites name="Walls">
-        <sprite>sprites\spr_wood_wall</sprite>
-        <sprite>sprites\spr_rotterdam_wall</sprite>
-        <sprite>sprites\spr_sand_stone_wall</sprite>
-        <sprite>sprites\spr_tech_wall</sprite>
-        <sprite>sprites\spr_temple_wall</sprite>
-        <sprite>sprites\spr_emerald_wall</sprite>
-        <sprite>sprites\spr_cracked_emerald_wall</sprite>
-        <sprite>sprites\spr_sapphire_wall</sprite>
-        <sprite>sprites\spr_sapphire_stone_wall</sprite>
-      </sprites>
       <sprite>sprites\spr_chess_boundary</sprite>
       <sprite>sprites\spr_bell</sprite>
       <sprite>sprites\spr_cosmic_bush</sprite>
@@ -874,8 +875,8 @@
           <sprite>sprites\spr_portal_4</sprite>
           <sprite>sprites\spr_portal_3</sprite>
           <sprite>sprites\spr_nexus_portal</sprite>
-          <sprite>sprites\spr_crafting_room_portal</sprite>
           <sprite>sprites\spr_tutorial_portal</sprite>
+          <sprite>sprites\spr_crafting_room_portal</sprite>
           <sprite>sprites\spr_vault_portal</sprite>
           <sprite>sprites\spr_shop_portal</sprite>
           <sprite>sprites\spr_chess_board_portal</sprite>
@@ -948,6 +949,7 @@
         <sprite>sprites\spr_emerald_guardian_asleep</sprite>
         <sprite>sprites\spr_marker</sprite>
         <sprite>sprites\spr_the_log_asleep</sprite>
+        <sprite>sprites\spr_task_master</sprite>
       </sprites>
       <sprites name="Details">
         <sprite>sprites\spr_tulip</sprite>
@@ -1001,6 +1003,8 @@
       <sprite>sprites\spr_recipe_book_button</sprite>
       <sprite>sprites\spr_save_slot_pointer</sprite>
       <sprite>sprites\spr_crate_scanner_outline</sprite>
+      <sprite>sprites\spr_task_collect</sprite>
+      <sprite>sprites\spr_portal_exclaim</sprite>
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\spr_blood_particle</sprite>
@@ -1070,6 +1074,7 @@
       <script>scripts\scr_initialize_potions.gml</script>
       <script>scripts\scr_initialize_misc.gml</script>
       <script>scripts\scr_initialize_crafting_recipes.gml</script>
+      <script>scripts\scr_initialize_tasks.gml</script>
     </scripts>
     <scripts name="Enemy Movement">
       <script>scripts\scr_enemy_erratic.gml</script>
@@ -1129,6 +1134,7 @@
       <object>objects\obj_initialize_vault</object>
       <object>objects\obj_menu_controller</object>
       <object>objects\obj_recipe_book_controller</object>
+      <object>objects\obj_task_master_controller</object>
       <object>objects\obj_death_controller</object>
     </objects>
     <objects name="Player">
@@ -1142,6 +1148,18 @@
       </objects>
     </objects>
     <objects name="Solid">
+      <objects name="Walls">
+        <object>objects\obj_wood_wall</object>
+        <object>objects\obj_nexus_wall</object>
+        <object>objects\obj_rotterdam_walls</object>
+        <object>objects\obj_sand_stone_wall</object>
+        <object>objects\obj_tech_wall</object>
+        <object>objects\obj_temple_wall</object>
+        <object>objects\obj_emerald_wall</object>
+        <object>objects\obj_cracked_emerald_wall</object>
+        <object>objects\obj_sapphire_wall</object>
+        <object>objects\obj_sapphire_stone_wall</object>
+      </objects>
       <object>objects\obj_solid</object>
       <object>objects\obj_tree</object>
       <object>objects\obj_elm_tree</object>
@@ -1156,17 +1174,6 @@
       <object>objects\obj_mana_pillar</object>
       <object>objects\obj_chess_boundary</object>
       <object>objects\obj_bell</object>
-      <objects name="Walls">
-        <object>objects\obj_wood_wall</object>
-        <object>objects\obj_rotterdam_walls</object>
-        <object>objects\obj_sand_stone_wall</object>
-        <object>objects\obj_tech_wall</object>
-        <object>objects\obj_temple_wall</object>
-        <object>objects\obj_emerald_wall</object>
-        <object>objects\obj_cracked_emerald_wall</object>
-        <object>objects\obj_sapphire_wall</object>
-        <object>objects\obj_sapphire_stone_wall</object>
-      </objects>
       <objects name="High">
         <object>objects\obj_mana_rock</object>
         <object>objects\obj_small_mana_rock</object>

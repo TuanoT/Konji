@@ -77,12 +77,14 @@ switch zone {
     case 2:
         image_index = 1;
         // :P
+        global.task_complete[1] = true;
         break;
         
     case 3:
         image_index = 2;
         player_x = 12800;
         name = 'Zone 3 Gateway';
+        global.task_complete[2] = true;
         pitch = 2.2;
         break;
         
@@ -91,6 +93,7 @@ switch zone {
         player_x = 17920;
         player_y = 10496;
         name = 'Zone 4 Gateway';
+        global.task_complete[4] = true;
         pitch = 2.4;
         break;
 }

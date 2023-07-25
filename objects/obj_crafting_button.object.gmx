@@ -109,6 +109,8 @@ if (place_meeting(x, y, obj_player) &amp;&amp; global.level &gt;= price &amp;&am
     audio_sound_pitch(snd, random_range(1.2, 1.8));
     
     global.level -= price;
+    
+    global.task_complete[8] = true;
 }
 </string>
           </argument>

@@ -156,6 +156,11 @@ if instance_number(obj_tech_turret) == 0 &amp;&amp; stage == 2 {
     stage = 3;
     invulnerable = false;
 }
+
+// Task on Death
+if (hp &lt;= 0) {
+    global.task_complete[7] = true;
+}
 </string>
           </argument>
         </arguments>

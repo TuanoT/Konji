@@ -766,6 +766,24 @@ global.item_shot_angle_increment[1003] = 0;
 global.item_special[1003] = 'None';
 global.item_special_amount[1003] = 0;
 
+// Extra Slick Rod
+var i = 1511;
+global.item_name[i] = 'Extra Slick Rod';
+global.item_sprite[i] = spr_extra_slick_rod;
+global.item_type[i] = 'weapon';
+global.item_damage[i] = 45;
+global.item_shot_speed[i] = 16;
+global.item_fire_rate[i] = 4;
+global.item_range[i] = 360;
+global.item_fire_sound[i] = snd_potion;
+global.item_tier[i] = 'collector';
+global.item_shot_sprite[i] = spr_slick_rod_shot;
+global.item_shot_number[i] = 1;
+global.item_shot_angle_start[i] = 0;
+global.item_shot_angle_increment[i] = 0;
+global.item_special[i] = 'Bounces';
+global.item_special_amount[i] = 5;
+
 // Crystal Shard Staff
 global.item_name[1316] = 'Crystal Shard Staff';
 global.item_sprite[1316] = spr_crystal_shard_staff;
@@ -817,24 +835,6 @@ global.item_shot_angle_start[i] = -21;
 global.item_shot_angle_increment[i] = 14;
 global.item_special[i] = 'None';
 global.item_special_amount[i] = 0;
-
-// Extra Slick Rod
-var i = 1511;
-global.item_name[i] = 'Extra Slick Rod';
-global.item_sprite[i] = spr_extra_slick_rod;
-global.item_type[i] = 'weapon';
-global.item_damage[i] = 5;
-global.item_shot_speed[i] = 16;
-global.item_fire_rate[i] = 10;
-global.item_range[i] = 1024;
-global.item_fire_sound[i] = snd_potion;
-global.item_tier[i] = 'god';
-global.item_shot_sprite[i] = spr_slick_rod_shot;
-global.item_shot_number[i] = 1;
-global.item_shot_angle_start[i] = 0;
-global.item_shot_angle_increment[i] = 0;
-global.item_special[i] = 'Bounce';
-global.item_special_amount[i] = 20;
 
 // Gamer Staff
 var i = 1512

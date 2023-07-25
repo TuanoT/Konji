@@ -115,9 +115,14 @@ repeat global.vault_amount {
     num++;
 }
 
-// Secret Trowel
-//var secret = irandom_range(1, global.vault_amount)
-//global.vault_slot[secret, 4] = ini_read_real('Vault ' + string(secret), 4, 1301);
+// Tasks
+var num = 0;
+repeat (array_length_1d(global.task_complete)) {
+    global.task_complete[num] = ini_read_real('Tasks', num, false);
+    num++;
+}
+global.current_task = ini_read_real('Tasks', 'Current', 0);
+global.task_complete[0] = true; // Set pebble task to true
 
 ini_close();
 

@@ -22,7 +22,7 @@ switch global.zone_index {
         break;
         
     case 4:
-        enemy = scr_random_weighted(obj_stone_golem, 8, obj_irishman, 1, obj_rattle_snake, 4, obj_mech, 4, obj_crystal_scout, 2, obj_mossy_golem, 2, obj_mr_febo, 1, obj_iron_golem, 1);
+        enemy = scr_random_weighted(obj_stone_golem, 4, obj_irishman, 1, obj_rattle_snake, 4, obj_mech, 4, obj_crystal_scout, 2, obj_mossy_golem, 4, obj_mr_febo, 1, obj_iron_golem, .75);
         break;
         
     case 5:

@@ -108,6 +108,11 @@ if stage == 0 {
     scr_create_minions(3, 64, obj_snake, id);
     stage++;
 }
+
+// Task on Death
+if (hp &lt;= 0) {
+    global.task_complete[5] = true;
+}
 </string>
           </argument>
         </arguments>

@@ -105,4 +105,12 @@ repeat global.vault_amount {
     num++;
 }
 
+// Tasks
+var num = 0;
+repeat (array_length_1d(global.task_complete)) {
+    ini_write_real('Tasks', num, global.task_complete[num]);
+    num++;
+}
+ini_write_real('Tasks', 'Current', global.current_task);
+
 ini_close();
